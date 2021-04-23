@@ -1,0 +1,58 @@
+body {
+    background-color: #ffffff; 
+    font-family: 'Quicksand';
+  }
+  
+  #navbar {
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+  
+  .navbar-custom { 
+    background-color: #ffffff; 
+  } 
+  
+  .full-width {
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  
+  h1 {
+    font-size: 5em;
+    font-family: "Pacifico";
+    color: #fd5c63;
+    padding-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    font-family: "Pacifico";
+    color: #fd5c63;
+  }
+  
+  h3 {
+    font-size: 1em;
+    font-family: "Pacifico";
+    color: #fd5c63;
+  }
+  
+  ul.content {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 10%;
+    padding: 15%;
+  }
+  
+  .contentlist {
+    height: auto;
+    width: 175px;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 30vh;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
