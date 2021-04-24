@@ -88,3 +88,21 @@ body {
   a.fight:hover:after, a.fight:visited:hover:after {
     width: 100%;
   }
+
+  .airy {
+    font-family: "Pacifico";
+    color: #fd5c63;
+  }
+  
+  p {
+    font-size: 1.25em;
+    /* padding-left: 1%; */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .divider{
+    height: 60px;
+  }
