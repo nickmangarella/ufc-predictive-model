@@ -1,7 +1,7 @@
-  @import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Open+Sans&display=swap');
   body {
-    background-color: #ffffff; 
-    font-family: 'Quicksand';
+    background-color: black; 
+    font-family: 'Open Sans';
   }
   
   #navbar {
@@ -23,21 +23,21 @@
   
   h1 {
     font-size: 5em;
-    font-family: "Pacifico";
-    color: #fd5c63;
+    font-family: "Black Ops One";
+    color: white;
     padding-bottom: 30px;
   }
   
   h2 {
     font-size: 2em;
-    font-family: "Pacifico";
-    color: #fd5c63;
+    font-family: "Black Ops One";
+    color: white;
   }
   
   h3 {
     font-size: 1em;
-    font-family: "Pacifico";
-    color: #fd5c63;
+    font-family: "Black Ops One";
+    color: white;
   }
   
   ul.content {
@@ -45,6 +45,7 @@
     margin: 0;
     margin-top: 10%;
     padding: 15%;
+    font-family: "Black Ops One";
   }
   
   .contentlist {
@@ -53,7 +54,7 @@
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 30vh;
-    background-color: #ffffff;
+    background-color: black;
     overflow-x: hidden;
     padding-top: 20px;
   }
@@ -66,7 +67,7 @@
   a.fight, a.fight:visited {
     text-decoration: none;
     position: relative;
-    color: #fd5c63;
+    color: white;
   }
 
   a.fight:hover{
@@ -81,7 +82,7 @@
     bottom: 0;
     left: 0;
     width: 0%;
-    background: #fd5c63;
+    background: white;
     transition: 0.5s;
   }
   
@@ -96,6 +97,7 @@
   
   p {
     font-size: 1.25em;
+    color: white;
     /* padding-left: 1%; */
   }
   
