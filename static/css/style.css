@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand&display=swap');
-body {
+  @import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand&display=swap');
+  body {
     background-color: #ffffff; 
     font-family: 'Quicksand';
   }
@@ -105,4 +105,65 @@ body {
   
   .divider{
     height: 60px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .contentlist {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .contentlist a {float: left;}
+    .main {margin-left: 0;}
+  }
+  
+  .spacer{
+    height:250px;
+  }
+  
+  .scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+  }
+  
+  #map {
+    height: 500px;
+    width: 90%;
+  }
+  
+  .octicon{
+    display: inline-block;
+    vertical-align: text-top; 
+    fill: black
+  }
+  
+  .octicon:hover{
+    fill: #fd5c63
+  }
+  
+  .about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  figure {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  figure img {
+    vertical-align: top;
+  }
+  
+  mark.red {
+    color:red;
+    background: none;
+  }
+  
+  mark.green {
+    color:green;
+    background: none;
   }
