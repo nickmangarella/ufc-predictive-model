@@ -68,3 +68,23 @@ body {
     position: relative;
     color: #fd5c63;
   }
+
+  a.fight:hover{
+    color: #ff2f3a;
+    text-decoration: none;
+  }
+  
+  a.fight:after, a.fight:visited:after {
+    content: '';
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background: #fd5c63;
+    transition: 0.5s;
+  }
+  
+  a.fight:hover:after, a.fight:visited:hover:after {
+    width: 100%;
+  }
