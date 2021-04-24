@@ -39,6 +39,16 @@
     font-family: "Black Ops One";
     color: white;
   }
+
+  ul.models {
+    list-style-type: circle;
+    /* margin: 0; */
+    /* margin-top: 10%; */
+    /* padding: 15%; */
+    font-family: "Open Sans";
+    font-size: 1.25em;
+    color: white;
+  }
   
   ul.content {
     list-style-type: none;
