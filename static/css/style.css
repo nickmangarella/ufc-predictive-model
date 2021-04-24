@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand&display=swap');
 body {
     background-color: #ffffff; 
     font-family: 'Quicksand';
@@ -55,4 +56,15 @@ body {
     background-color: #ffffff;
     overflow-x: hidden;
     padding-top: 20px;
+  }
+
+  .main {
+    margin-left: 125px;
+    padding: 0 50px;
+  }
+  
+  a.fight, a.fight:visited {
+    text-decoration: none;
+    position: relative;
+    color: #fd5c63;
   }
