@@ -6,7 +6,7 @@
   
   #navbar {
     position: fixed; /* Make it stick/fixed */
-    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    top: -70px; /* Hide the navbar 70 px outside of the top view */
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
   }
@@ -50,7 +50,7 @@
   
   .contentlist {
     height: auto;
-    width: 175px;
+    width: 225px;
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 30vh;
@@ -60,7 +60,7 @@
   }
 
   .main {
-    margin-left: 125px;
+    margin-left: 175px;
     padding: 0 50px;
   }
   
@@ -91,7 +91,7 @@
   }
 
   .airy {
-    font-family: "Pacifico";
+    font-family: "Black Ops One";
     color: #fd5c63;
   }
   
