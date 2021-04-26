@@ -15,6 +15,26 @@
     let ufcBOdds = document.getElementById("fightBOdds");
     let ufcBOddsURL = "https://public.tableau.com/views/Project-3_16186819550490/BOdds?:language=en&:display_count=y&:origin=viz_share_link";
 
+    let ufcAgeDif = document.getElementById("fightAgeDif");
+    let ufcAgeDifURL = "https://public.tableau.com/views/UFCPredictiveModel/AgeDifference?:language=en&:display_count=y&:origin=viz_share_link";
+
+    let ufcHeightDif = document.getElementById("fightHeightDif");
+    let ufcHeightDifURL = "https://public.tableau.com/views/UFCPredictiveModel/HeightDifference?:language=en&:display_count=y&:origin=viz_share_link";
+
+    let ufcReachDif = document.getElementById("fightReachDif");
+    let ufcReachDifURL = "https://public.tableau.com/views/UFCPredictiveModel/ReachDifference?:language=en&:display_count=y&:origin=viz_share_link";
+
+    let ufcStrikeDif = document.getElementById("fightStrikeDif");
+    let ufcStrikeDifURL = "https://public.tableau.com/views/UFCPredictiveModel/Sig_StrikeDifference?:language=en&:display_count=y&:origin=viz_share_link";
+
+    let ufcSubmissionDif = document.getElementById("fightSubmissionDif");
+    let ufcSubmissionDifURL = "https://public.tableau.com/views/UFCPredictiveModel/SubmissionDifference?:language=en&:display_count=y&:origin=viz_share_link";
+
+    let ufcTakedownDif = document.getElementById("fightTakedownDif");
+    let ufcTakedownDifURL = "https://public.tableau.com/views/UFCPredictiveModel/TakedownDifference?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link";
+
+
+
 
 
     new tableau.Viz(ufcWeight, ufcURL);
@@ -22,6 +42,14 @@
     new tableau.Viz(ufcCountryRank, ufcCountryRankURL);
     new tableau.Viz(ufcROdds, ufcROddsURL);
     new tableau.Viz(ufcBOdds, ufcBOddsURL);
+    new tableau.Viz(ufcAgeDif, ufcAgeDifURL);
+    new tableau.Viz(ufcHeightDif, ufcHeightDifURL);
+    new tableau.Viz(ufcReachDif, ufcReachDifURL);
+    new tableau.Viz(ufcStrikeDif, ufcStrikeDifURL);
+    new tableau.Viz(ufcSubmissionDif, ufcSubmissionDifURL);
+    new tableau.Viz(ufcTakedownDif, ufcTakedownDifURL);
+    
+
 
 
 
