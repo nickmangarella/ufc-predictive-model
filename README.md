@@ -6,8 +6,7 @@
 ​      
 ​      We were able to procure a dataset from Kaggle that was rich with  features, giving us a lot to work with to build out our machine learning (ML) project.  Our goal was to analyze the data, run it through various models, and see what features standout as lending the most predictive  value.      
 ​      
-​      Some of the ML models that we used are:      
-​      
+​      Some of the ML models that we used are:    ​      
 ​      
 
 - Logistic Regression
